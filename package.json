@@ -4,7 +4,9 @@
   "description": "Página del curso Single Page App con JavaScript Nativo en Platzi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [],
   "author": "Ulises Moralez",
