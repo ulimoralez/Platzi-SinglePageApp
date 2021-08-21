@@ -9,7 +9,7 @@ git:
 script:
     - yarn build
 deploy:
-    provider: pages
+    provide: pages
     edge: true
     skip-cleanup: true
     keep-history: true
